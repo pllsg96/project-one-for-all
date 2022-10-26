@@ -8,6 +8,7 @@ DROP DATABASE IF EXISTS SpotifyClone;
       price DECIMAL(5,2) NOT NULL
   ) engine = InnoDB;
 
+
   INSERT INTO SpotifyClone.plans (plan_id, plan, price)
   VALUES
     (1,	'gratuito',	0),
